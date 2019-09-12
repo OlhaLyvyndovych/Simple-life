@@ -188,14 +188,14 @@ body {
     display: inline;
   }
 
-  .cooking figcaption {
+  /* .cooking figcaption {
     font-family: Segoe-UI;
     font-size: 14px;
     line-height: 18px;
     color: #707070;
-  }
+  } */
 
-  .work-space figcaption, .decor figcaption {
+  .cooking figcaption, .work-space figcaption, .decor figcaption {
     font-family: Segoe-UI;
     font-size: 14px;
     line-height: 18px;
