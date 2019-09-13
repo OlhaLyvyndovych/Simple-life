@@ -87,15 +87,11 @@ body {
     letter-spacing: 3.2px;
     display: block;
     margin-bottom: 39px;
-  }
-
-  .home {
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-  }
-
-  a:nth-child(n + 2) {
     text-decoration: none;
+  }
+
+  .nav a:hover {
+    text-decoration: underline;
   }
 
   .intro {
@@ -109,6 +105,19 @@ body {
     width: 100%;
     height: 308px;
     margin-bottom: 25px;
+  }
+
+  .image {
+    overflow: hidden;
+  }
+
+  .image img:hover {
+    transform: scale(1.1);
+  }
+
+  .image img {
+    transform: scale(1);
+    transition: transform .3s ease-out;
   }
 
   .intro figcaption, .cooking figcaption {
@@ -163,6 +172,12 @@ body {
     font-size: 14px;
     letter-spacing: 2.8px;
     color: #1792D2;
+    text-decoration: none;
+  }
+
+  .third:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 
   hr.after-intro {
@@ -187,13 +202,6 @@ body {
     height: 194px;
     display: inline;
   }
-
-  /* .cooking figcaption {
-    font-family: Segoe-UI;
-    font-size: 14px;
-    line-height: 18px;
-    color: #707070;
-  } */
 
   .cooking figcaption, .work-space figcaption, .decor figcaption {
     font-family: Segoe-UI;
@@ -307,5 +315,4 @@ body {
       padding-top: 78px;
       text-align: center;
   }
-
 }
