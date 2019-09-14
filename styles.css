@@ -272,13 +272,18 @@ body {
     align-self: center;
   }
 
-  .posts p {
+  .link {
     font-family: Lora-Regular;
     font-size: 18px;
     color: #143774;
     margin-top: 8px;
     margin-left: 26px;
     padding-top: 0;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
   }
 
   .posts p:nth-child(3) {
